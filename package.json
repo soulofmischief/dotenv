@@ -1,6 +1,6 @@
 {
-  "name": "dotenv",
-  "version": "8.1.0",
+  "name": "dotenv-plus",
+  "version": "1.0.2",
   "description": "Loads environment variables from .env file",
   "main": "lib/main.js",
   "scripts": {
@@ -14,10 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/motdotla/dotenv.git"
+    "url": "git://github.com:soulofmischief/dotenv-plus.git"
   },
   "keywords": [
     "dotenv",
+    "dotenv-plus",
+    "dotenv+",
     "env",
     ".env",
     "environment",
@@ -29,12 +31,12 @@
   "license": "BSD-2-Clause",
   "devDependencies": {
     "decache": "^4.5.1",
-    "flow-bin": "^0.105.2",
-    "sinon": "^7.4.1",
-    "standard": "^13.1.0",
+    "flow-bin": "^0.108.0",
+    "sinon": "^7.4.2",
+    "standard": "^14.3.1",
     "standard-markdown": "^5.1.0",
     "standard-version": "^7.0.0",
-    "tap": "^14.6.1"
+    "tap": "^14.6.4"
   },
   "dependencies": {},
   "engines": {
