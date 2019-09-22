@@ -1,4 +1,4 @@
-# dotenv
+# dotenv+
 
 <img src="https://raw.githubusercontent.com/motdotla/dotenv/master/dotenv.png" alt="dotenv" align="right" />
 
@@ -274,6 +274,8 @@ errorReporter.client.report(new Error('faq example'))
 3. Create a separate file that will execute `config` first as outlined in [this comment on #133](https://github.com/motdotla/dotenv/issues/133#issuecomment-255298822)
 
 ## Contributing Guide
+
+Contributions welcome. Dotenv+ aims to extend the functionality of [dotenv](https://github.com/motdotla/dotenv) without sacrificing reliability. The original project maintainers are not interested in new features.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md)
 
