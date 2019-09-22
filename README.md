@@ -107,7 +107,7 @@ require('dotenv-plus').config({ path: '/full/custom/path/to/your/env/vars' })
 
 #### MultiConfig
 
-Default: `path.resolve(process.cwd(), '.env')`
+Default: `false`
 
 Instead of loading `.env` or a custom path, load a configuration file with a suffix matching `NODE_ENV`.
 
