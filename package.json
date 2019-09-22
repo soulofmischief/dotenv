@@ -1,6 +1,6 @@
 {
   "name": "dotenv-plus",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Loads environment variables from .env file",
   "main": "lib/main.js",
   "scripts": {
