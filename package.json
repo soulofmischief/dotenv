@@ -4,10 +4,12 @@
   "description": "Loads environment variables from .env file",
   "main": "lib/main.js",
   "scripts": {
+    "coverage": "nyc --reporter=lcov tap",
     "flow": "flow",
     "lint": "standard",
     "postlint": "standard-markdown",
     "pretest": "npm run lint",
+    "report-coverage": "npm run coverage && codecov",
     "test": "tap tests/*.js --100",
     "prerelease": "npm test",
     "release": "standard-version"
@@ -30,15 +32,16 @@
   "readmeFilename": "README.md",
   "license": "BSD-2-Clause",
   "devDependencies": {
+    "codecov": "^3.6.1",
     "decache": "^4.5.1",
     "flow-bin": "^0.108.0",
+    "nyc": "^14.1.1",
     "sinon": "^7.4.2",
     "standard": "^14.3.1",
     "standard-markdown": "^5.1.0",
     "standard-version": "^7.0.0",
     "tap": "^14.6.4"
   },
-  "dependencies": {},
   "engines": {
     "node": ">=8"
   },
