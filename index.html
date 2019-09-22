@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Dotenv by scottmotte</title>
+    <title>Dotenv+ by soulofmischief</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
@@ -15,33 +15,31 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>Dotenv</h1>
+        <h1>Dotenv+</h1>
         <p>Loads environment variables from .env for nodejs projects.</p>
 
-        <p class="view"><a href="https://github.com/scottmotte/dotenv">View the Project on GitHub <small>scottmotte/dotenv</small></a></p>
+        <p class="view"><a href="https://github.com/soulofmischief/dotenv">View the Project on GitHub <small>soulofmischief/dotenv</small></a></p>
 
 
         <ul>
-          <li><a href="https://github.com/scottmotte/dotenv/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/scottmotte/dotenv/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/scottmotte/dotenv">View On <strong>GitHub</strong></a></li>
+          <li><a href="https://github.com/soulofmischief/dotenv/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/soulofmischief/dotenv/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/soulofmischief/dotenv">View On <strong>GitHub</strong></a></li>
         </ul>
       </header>
       <section>
         <h1>
-<a name="dotenv" class="anchor" href="#dotenv"><span class="octicon octicon-link"></span></a>dotenv</h1>
+<a name="dotenv" class="anchor" href="#dotenv"><span class="octicon octicon-link"></span></a>dotenv+</h1>
 
-<p>Dotenv loads environment variables from .env into ENV (process.env). It is a superior alternative to <a href="https://github.com/flatiron/nconf">nconf</a> and other variants.</p>
+<p>Dotenv+ loads environment variables from .env into ENV (process.env). It is forked from <a href="https://github.com/motdotla/dotenv">dotenv</a> and provides a superior alternative to <a href="https://github.com/flatiron/nconf">nconf</a> and other variants.</p>
 
-<p><a href="https://travis-ci.org/scottmotte/dotenv"><img src="https://travis-ci.org/scottmotte/dotenv.png?branch=master" alt="BuildStatus"></a>
+<p><a href="https://travis-ci.org/soulofmischief/dotenv"><img src="https://travis-ci.org/soulofmischief/dotenv.png?branch=master" alt="BuildStatus"></a>
 <a href="http://badge.fury.io/js/dotenv"><img src="https://badge.fury.io/js/dotenv.png" alt="NPM version"></a></p>
 
 <blockquote>
 <p>"Storing <a href="http://www.12factor.net/config">configuration in the environment</a> is one of the tenets of a <a href="http://www.12factor.net/">twelve-factor app</a>. Anything that is likely to change between deployment environments–such as resource handles for databases or credentials for external services–should be extracted from the code into environment variables.</p>
 
-<p>But it is not always practical to set environment variables on development machines or continuous integration servers where multiple projects are run. Dotenv load variables from a <code>.env</code> file into ENV when the environment is bootstrapped."</p>
-
-<p><a href="https://github.com/bkeepers/dotenv">Brandon Keepers' Dotenv in Ruby</a></p>
+<p>But it is not always practical to set environment variables on development machines or continuous integration servers where multiple projects are run. Dotenv+ loads variables from a <code>.env</code> file into ENV when the environment is bootstrapped."</p>
 </blockquote>
 
 <h2>
@@ -53,7 +51,7 @@
   <span class="p">...</span>
   <span class="s2">"dependencies"</span><span class="o">:</span> <span class="p">{</span>
     <span class="p">...</span>
-    <span class="s2">"dotenv"</span><span class="o">:</span> <span class="s2">"0.2.4"</span>
+    <span class="s2">"dotenv-plus"</span><span class="o">:</span> <span class="s2">"0.2.4"</span>
   <span class="p">}</span>
 <span class="p">}</span>
 </pre></div>
@@ -61,9 +59,9 @@
 <h2>
 <a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
 
-<p>As early as possible in your application require dotenv and load the <code>.env</code> variables: </p>
+<p>As early as possible in your application require dotenv+ and load the <code>.env</code> variables: </p>
 
-<div class="highlight highlight-javascript"><pre><span class="kd">var</span> <span class="nx">dotenv</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'dotenv'</span><span class="p">);</span>
+<div class="highlight highlight-javascript"><pre><span class="kd">var</span> <span class="nx">dotenv</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'dotenv-plus'</span><span class="p">);</span>
 <span class="nx">dotenv</span><span class="p">.</span><span class="nx">load</span><span class="p">();</span>
 </pre></div>
 
@@ -110,6 +108,6 @@ npm <span class="nb">test</span>
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
-    
+
   </body>
 </html>
